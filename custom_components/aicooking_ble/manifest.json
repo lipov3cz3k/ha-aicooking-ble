@@ -1,0 +1,19 @@
+{
+  "domain": "aicooking_ble",
+  "name": "Aicooking Bluetooth",
+  "codeowners": ["@lipov3cz3k"],
+  "config_flow": true,
+  "dependencies": ["bluetooth"],
+  "documentation": "https://github.com/lipov3cz3k/aicooking-ble",
+  "iot_class": "local_push",
+  "requirements": ["aicooking-ble==0.2.0"],
+  "version": "1.0.0",
+  "bluetooth": [
+    {
+      "manufacturer_id": 21930
+    },
+    {
+      "local_name": "BBQ*"
+    }
+  ]
+}
