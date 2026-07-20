@@ -34,13 +34,7 @@ def process_service_info(
     Runs side effects and returns sensor data.
     """
     coordinator = entry.runtime_data
-    data = coordinator.device_data
-    update = data.update(service_info)
-
-    if not coordinator.device_name and data.title:
-        coordinator.device_name = data.title
-
-    return update
+    return coordinator.device_data.update(service_info)
 
 
 class AicookingBLEBluetoothProcessorCoordinator(
