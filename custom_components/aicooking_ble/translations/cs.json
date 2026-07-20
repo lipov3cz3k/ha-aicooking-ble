@@ -1,0 +1,21 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "Zařízení je již nakonfigurováno",
+      "already_in_progress": "Nastavení zařízení již probíhá",
+      "no_devices_found": "Nenalezena žádná nenakonfigurovaná zařízení"
+    },
+    "flow_title": "{name}",
+    "step": {
+      "bluetooth_confirm": {
+        "description": "Chcete nastavit zařízení {name}?"
+      },
+      "user": {
+        "data": {
+          "address": "Zařízení"
+        },
+        "description": "Vyberte zařízení k nastavení"
+      }
+    }
+  }
+}
