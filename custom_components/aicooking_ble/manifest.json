@@ -15,6 +15,6 @@
   "documentation": "https://github.com/lipov3cz3k/ha-aicooking-ble",
   "iot_class": "local_push",
   "issue_tracker": "https://github.com/lipov3cz3k/ha-aicooking-ble/issues",
-  "requirements": ["aicooking-ble>=0.1.2"],
+  "requirements": ["aicooking-ble==0.3.1"],
   "version": "1.0.0"
 }
